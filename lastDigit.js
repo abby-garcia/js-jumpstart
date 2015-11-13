@@ -23,33 +23,25 @@ The function accepts two non-negative integer
 
 
 
-var num1 = num1.toString().length;
-var num2 = num2.toString().length;
 
 
 
 function lastDigit(num1,num2){
-	if(num1.toString().length ===  ){
-
-
-
-	}
-	return true;
-	else {
-		return false;
-	}
-
-
+    if(num1.toString()[num1.toString().length-1] ===  num2.toString()[num2.toString().length-1]){
+        return true;
+    }
+    
+    else{
+        return false;
+    }
     
 }
 
-
-
-
-lastDigit(55,75)
+lastDigit(500, 600);        
 
 
 // Thought process:
 // 1. In order to get the LAST digit, you need to convert the numbers into a string. 
-// 2. To do this, you need to use the toString(); method. 
-// 3. From there, you can get the length and the index number. 
+// 2. To do this, you need to use the toString(); method. (first half)
+// 3. Second Half - Now that you changed the first half to a string, you need to find 
+// the length to that string and then take away one BECAUSE of the index numer.
