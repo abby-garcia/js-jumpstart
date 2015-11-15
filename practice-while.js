@@ -3,7 +3,7 @@
 //code block within your loop `console.log` your 
 //counter variable.  The final result should output: 
 // TIP: All the output text should be white, do not worry 
-if you get green text, such as the number 18.
+//if you get green text, such as the number 18.
 
 // 0
 // 3
@@ -14,3 +14,8 @@ if you get green text, such as the number 18.
 
 // START WHILE-LOOP HERE
 
+var num = 0;
+while(num <= 15){
+    console.log(num);
+    num+=3;
+}
