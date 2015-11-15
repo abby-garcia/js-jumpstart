@@ -40,6 +40,28 @@ function lastDigit(num1,num2){
 lastDigit(500, 600);        
 
 
+
+function lastDigit(num1,num2){
+    // num values to string values
+    num1=num1.toString();
+    num2=num2.toString();
+    //get the last character in the strings
+    var numLastIndex =  num1[num1.length-1];
+    var numLastIndex2 = num2[num2.length-1];
+    
+    // compare the characters
+    if(numLastIndex ===  numLastIndex2){
+        return true;
+    } else{
+        return false;
+    }
+    
+}
+
+lastDigit(500, 600);   
+
+
+
 // Thought process:
 // 1. In order to get the LAST digit, you need to convert the numbers into a string. 
 // 2. To do this, you need to use the toString(); method. (first half)
