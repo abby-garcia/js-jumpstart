@@ -9,3 +9,12 @@
 
 //*** Write the reverseString Function below ***
 
+
+function reverseString(words){
+	return words.split('').reverse().join('');
+
+
+
+}
+
+reverseString("helloo world");
