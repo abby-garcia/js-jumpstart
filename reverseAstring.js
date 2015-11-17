@@ -18,3 +18,5 @@ function reverseString(words){
 }
 
 reverseString("helloo world");
+
+//what is the alternative to reverse?
