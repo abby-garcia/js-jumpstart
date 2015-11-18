@@ -19,3 +19,6 @@ while(num <= 15){
     console.log(num);
     num+=3;
 }
+
+// always do the increments OUTSIDE OF the console.log
+//console.log it within the function

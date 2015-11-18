@@ -19,7 +19,7 @@
 
 var character = "L";
 
-while(character.length <= 5){
+while(character.length <= 4){
      console.log(character);
     character += "L";
 }
