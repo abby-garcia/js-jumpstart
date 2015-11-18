@@ -12,12 +12,47 @@
 
 //*** Write the vowelCount Function below ***
 
-function countVowels(subject) {
-    return subject.match(/[aeiou]/gi).length;
+//The way they like doing it
+
+
+function vowelCounts(str){
+	var lowerStr = str.toLowerCase();
+
+	for(var i = 0; i < lowerStr.length; i++){
+		lowerStr[i];
+
+	}
+
+
+
 }
 
 
-countVowels("Hello, my name is Elder Price.");
+vowelCounts("Good job!");
+
+
+
+
+
+
+
+
+// you need to find the vowels in a string
+//create a loop to be able to find certain letters within a string
+// Step 1 - create a variable that makes all letters lower case
+//Step 2 - create a for loop.
+//Step 3 - console log line 22 to make sure that it is sending you the right string. 
+
+
+//SHORT WAY
+
+
+// function countVowels(subject) {
+//     return subject.match(/[aeiou]/gi).length;
+// }
+
+
+// countVowels("Elder Price.");
 
 
 // so we need to find a way to count ONLY the vowels. That's not too bad. 
