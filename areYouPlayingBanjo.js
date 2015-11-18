@@ -27,3 +27,12 @@ function areYouPlayingBanjo(name){
 
 areYouPlayingBanjo('Bob');
 // areYouPlayingBanjo('Sammy');
+
+
+
+
+//Comments
+//DRY- do not repeat yourself 
+// .UpperCase() === "S"    <--- that will make first character an upper case string. but you will
+// use less code  --- if(name[0].toUpperCase() === 's')
+
