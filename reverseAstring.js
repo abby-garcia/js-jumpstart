@@ -10,11 +10,11 @@
 //*** Write the reverseString Function below ***
 
 function reverseString(word){
-    var reverseWord = "";
+    var reverseWord = ""; // we need it hold the value of something, so we let it take the value of an empty string 
     for (var i = word.length - 1; i >= 0; i--) {
-    reverseWord += word[i];
+    reverseWord += word[i];   // you are concatenating here. the empty string + the word index. 
     }
- console.log(reverseWord);   
+ console.log(reverseWord);    
 }
 
 reverseString("Hamilton");

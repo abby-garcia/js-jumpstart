@@ -25,13 +25,12 @@ function vowelCount(word){
 		}
 	}
 
-
-
-	
-
-
+	return counter;
 
 }
+
+console.log(vowelCount("Hello"));
+
 
 
 
