@@ -1,24 +1,20 @@
 /*
  * Complete the function below.
- */
-function palindrome(str) {
-    var reverseStr="";
-    var str = str.toLowerCase();
-    
-    for(var i = str.length - 1; i >= 0; i--){
-        reverseStr+=str[i];
-    }    
-    
-    if(reverseStr === str){
+function palindrome(str){
+    var reversedString="";
+    str = str.toLowerCase();
+    for(var length = str.length - 1; length >= 0; length-- ){
+        reversedString += str[length];
+    }
+    if(reversedString ===  str){
         return true;
     }
-    else{
-        return false;
-    }
-}        
-        
-        
+    return false;
+    
+}
+
 palindrome("racecar");
+
 
 
 //we need to make a for loop. 

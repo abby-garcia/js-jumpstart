@@ -14,15 +14,26 @@
 
 
 
-// this may be a nested for loop question. 
-
-
-
-function intergerCombination(x1,)
+this may be a nested for loop question. 
 
 
 
 
+function intergerCombination(x1,x2, y1, y2){
 
 
 
+
+
+
+
+}
+
+
+
+
+intergerCombination(1, 10, 5, 20);
+
+
+// //this maybe nested for loops
+// // if any of the in between numbers match, we have to add them together
