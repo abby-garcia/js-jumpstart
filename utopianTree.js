@@ -1,13 +1,18 @@
-
-
-
-
 function getHeight(cycles) {
-    var height = 1; // height is always changing, so this isn't right. 
-    var monsoonCycle = height *2;
-    var summerCycle = height + 1;
+    var height = 1;
+    for(var i = 1; i <= cycles; i++ ){
+        if( i % 2 === 0){
+            heigh = height + 1; 
+        }
+        else{
+           height = height * 2 
+           
+        }
+        
+        
+    }
     
-    for(var i = 0 ;  i < cycles; i++){
-        height = monsoonCycle + summerCycle
-    }  
-    return height;
+}
+
+getHeight(3);
+

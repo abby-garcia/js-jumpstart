@@ -19,6 +19,10 @@ function rightTriangle(rows){
 rightTriangle(5);
 
 
+
+finalString += "*".repeat(i);
+
+
 //The \n character is used to find a newline character.
 // you need to make it add a certain amount of stars
 
